@@ -72,8 +72,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 24px 0;
+    padding: 20px 0;
     justify-content: space-between;
+}
+
+header{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* опціонально, для тіні */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: white;
 }
 
 .align-box{
@@ -84,6 +92,9 @@
 
 .navbar-logo{
     margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .navbar-menu{
@@ -116,8 +127,8 @@
 
 /*КЛАСИ ДЛЯ СЕКЦІЇ 1 - БАНЕР --------------------------------------------------------------------------------------------------*/
 .section-1{
-    margin-top: 160px;
-    margin-bottom: 160px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .image-center{
