@@ -80,7 +80,6 @@ header{
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* опціонально, для тіні */
     position: sticky;
     top: 0;
-    z-index: 1000;
     background: white;
 }
 
@@ -199,6 +198,7 @@ header{
 
 .section-3-wrapper {
     position: relative;
+    z-index: -1;
 }
 
 .section-3-wrapper::before {
@@ -209,7 +209,7 @@ header{
     width: 100%;
     height: calc(100% - 50%); /* або просто задати фіксовану висоту */
     background-color: var(--color-grey-dark); /*задній колір фону 3 секції можна змінити тут*/
-    z-index: -1;
+    z-index: -2;
 }
 
 .additional-text{
