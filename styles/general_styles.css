@@ -222,7 +222,13 @@ body, html{
     .span-6{
         grid-column: span 12; 
     }
+}
 
+@media (max-width: 900px){
+    .card-section-3, .card-tittle-section-4, 
+    .card-content-section-4, .card-section-5, .opened-content, summary{
+        border-radius: 16px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -246,6 +252,16 @@ body, html{
 
     .custom-button{
         border-width: 3px;
+        padding: 14px 40px;
+        border-radius: 14px;
+    }
+
+    .navbar-menu{
+        gap: 30px;
+    }
+
+    .navbar-menu-1{
+        margin-top: -400px;
     }
 }
 
@@ -329,6 +345,23 @@ body, html{
 
     .responsive-align{
         margin-bottom: 40px;
+    }
+
+    .navbar-menu{
+        gap: 20px;
+    }
+
+    .navbar-logo{
+        width: 100px;
+        height: auto;
+    }
+
+    summary {
+        border-width: 2px; /*товщина контуру*/
+    }
+
+    .opened-content {
+        border-width: 2px; /*товщина контуру*/
     }
 }
 

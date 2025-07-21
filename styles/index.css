@@ -243,7 +243,7 @@ header{
     background-color: var(--color-grey-light); /*колір карток можна змінити туть*/
     height: auto;
     padding: 40px;
-    border-radius: 26px; /*заокругленість кутів карток*/
+    border-radius: 22px; /*заокругленість кутів карток*/
     display: flex;
     flex-direction: column;
     justify-content: center;
